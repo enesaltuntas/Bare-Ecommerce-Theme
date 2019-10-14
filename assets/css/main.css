@@ -1,0 +1,249 @@
+
+    /* Bare Ecommerce Theme */
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+    *::selection {
+        background-color: #05AED4 !important;
+        color: #FFF !important;
+    }
+
+    /* a */
+    a, a:hover {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    /* a:hover */
+    a:hover {
+        color: #cdcdcd !important;
+    }
+
+    .bg-img-cover {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .cursor-pointer {
+        cursor: pointer !important;
+    }
+
+    .bg-img-contain {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* .space */
+    .space {
+        width: 100% !important;
+        clear: both !important;
+        padding: 25px 0 ; /* Bunu !important; yapmiyoruz. */
+    }
+
+    .fullLink {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    /* body */
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        background-color: #edf0f2;
+    }
+
+    #mainNav {
+        padding: 0 1rem;
+        background-color: #777;
+    }
+
+        @media (min-width: 768px) {
+            #mainNav .navbar-brand {
+                position: absolute;
+                height: 200px;
+                width: 200px;
+                top: 0;
+                background-color: #9dbc92;
+                z-index: 5;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        #mainNav .navbar-brand img {
+            max-width: 150px;
+            margin: -10px 0 0 0;
+        }
+
+        #mainNav .navbar-nav > .nav-item > .nav-link {
+            color: #ffffff !important;
+            height: 45px;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            font-weight: 500;
+            transition: all .5s ease;
+        }
+
+            #mainNav .navbar-nav > .nav-item > .nav-link:hover {
+                background-color: white;
+                color: #343a40 !important;
+                transition: all .5s ease;
+            }
+
+    .pageBigImg {
+        margin: 10px 0 0 0;
+    }
+
+        .pageBigImg #owl-demo .item {
+            height: 600px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .pageBigImg .owl-nav {
+            display: none;
+        }
+
+        .pageBigImg .owl-dots {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+        }
+
+        .pageBigImg .topBoxOne {
+            padding: 0;
+            transition: all 1s ease;
+            cursor: pointer;
+            height: 296px;
+            position: relative;
+        }
+
+            .pageBigImg .topBoxOne h6 {
+                font-size: 20px;
+                color: white;
+                margin: 0 0 20px 0;
+            }
+
+            .pageBigImg .topBoxOne:first-of-type {
+                margin-bottom: 8px;
+                padding: 35px 0;
+            }
+
+            .pageBigImg .topBoxOne:last-of-type p.leftLink {
+                position: absolute;
+                left: 0;
+                bottom: 25px;
+                padding: 5px 15px 5px 12px;
+                background-color: white;
+            }
+
+            .pageBigImg .topBoxOne:hover {
+                background-color: grey !important;
+                transition: all 1s ease;
+            }
+
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: #9dbc92;
+    }
+
+    #homeCategories .item {
+        text-align: center;
+        height: 250px;
+        padding: 77px 0;
+        background-color: #ebebeb;
+        border-right: 1px solid #ffffff;
+        transition: all .5s ease;
+    }
+
+        #homeCategories .owl-item .item:hover {
+            background-color: #9dbc92;
+            transition: all .5s ease;
+        }
+
+            #homeCategories .owl-item .item:hover img {
+                filter: invert(1);
+                transition: all .5s ease;
+            }
+
+            #homeCategories .owl-item .item:hover h5 {
+                color: #FFFFFF;
+                transition: all .5s ease;
+            }
+
+        #homeCategories .owl-item:first-of-type .item {
+            border-left: 1px solid #ebebeb;
+        }
+
+        #homeCategories .item img {
+            width: unset !important;
+            margin: auto;
+        }
+
+        #homeCategories .item h5 {
+            margin: 15px 0 0 0;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 500;
+            color: #363f4d;
+        }
+
+.tabGroup #nav-tab .nav-link {
+    padding: .5rem 2rem;
+    border: 1px solid #ffffff;
+    color: #363f4d !important;
+    background-color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: all .5s ease;
+}
+
+    .tabGroup #nav-tab .nav-link:hover {
+        border: 1px solid #9dbc92;
+        color: #FFFFFF !important;
+        background-color: #9dbc92;
+        transition: all .5s ease;
+    }
+
+    .productBox:hover {
+        box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .productBox .descBox {
+        padding: 10px;
+        background-color: white;
+    }
+
+        .productBox .descBox h5 {
+            font-size: 15px;
+            margin: 0;
+        }
+
+        .productBox .descBox .prCat {
+            margin: 0 0 10px 0;
+            font-size: 12px;
+        }
+
+        .productBox .descBox .prPrice {
+            margin: 0 !important;
+        }
+
+            .productBox .descBox .prPrice .oldPrice {
+                margin: 0 10px 0 0;
+            }
